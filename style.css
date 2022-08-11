@@ -1,0 +1,33 @@
+body{
+    background-color: black;
+}
+.row button{
+    margin: 3px;
+    padding: 20px;
+    border-radius: 35px;
+    color: white;
+    font-weight: 50px;
+    font-size: larger;
+    background-color: #282D33;
+}
+.row .two{
+    background-color: orangered;
+}
+.row .three{
+    color: orangered;
+}
+.one .four{
+    padding: 25px 6px;
+    font-size: larger;
+    margin: 10px;
+}
+.one{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#we:hover{
+    background-color: white;
+    color: black;
+}
